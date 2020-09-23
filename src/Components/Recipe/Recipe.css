@@ -1,0 +1,46 @@
+.food-recipe-main{
+    text-align: center;
+    background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+}
+.search{
+    padding: 2% 20% 2% 10%;
+    padding-top: 2%;
+    text-align: center;
+}
+
+.search-bar{
+    height: 25px;
+}
+
+.search-button{
+    height: 30px;
+    cursor: pointer;
+}
+
+
+
+.recipe-list{
+    padding-left: 26%;
+    list-style: none;
+    text-align: left;
+}
+
+.recipe-item{
+    border: 10px solid rgb(148, 143, 143);
+    border-radius: 20px;
+    margin: 5% 20% 5% 10%;
+}
+
+li:nth-child(odd){
+    
+    color: #141414;
+}
+li:nth-child(even){
+    color: #f5ebea;
+}
+
+img{
+    border: 5px solid rgb(189, 175, 175);
+    border-radius: 20px;
+    margin-bottom: 5%;
+}
